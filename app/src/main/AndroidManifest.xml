@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:name=".ThriftopiaApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Thriftopia"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Thriftopia">
+
+        <activity android:name=".CheckoutPaymentActivity" />
+
+        <activity android:name=".SavedSearchesActivity" />
+        <activity android:name=".SellerProfileActivity" />
+
+        <activity android:name=".AdminAuditLogActivity" />
+        <activity android:name=".AdminReportsActivity" />
+        <activity android:name=".ReportActivity" />
+
+        <activity android:name=".CartActivity" />
+        <activity android:name=".EditProfileActivity" />
+        <activity android:name=".NotificationsActivity" />
+        <activity android:name=".OrderDetailsActivity" />
+        <activity android:name=".EditListingActivity" />
+        <activity android:name=".MyPurchasesActivity" />
+
+        <activity android:name=".ManageUsersListingsActivity" />
+        <activity android:name=".AdminDashboardActivity" />
+        <activity android:name=".AdminLoginActivity" />
+        <activity android:name=".AnalyticsDashboardActivity" />
+
+        <activity android:name=".MyListingsActivity" />
+        <activity android:name=".ProfileActivity" />
+
+        <activity
+            android:name=".ChatRoomActivity"
+            android:windowSoftInputMode="adjustResize|stateHidden" />
+
+        <activity android:name=".ChatListActivity" />
+        <activity android:name=".WatchlistActivity" />
+
+        <activity android:name=".AuctionDetailActivity" />
+        <activity android:name=".AuctionCreationActivity" />
+
+        <activity android:name=".ItemDetailsActivity" />
+        <activity android:name=".SellItemActivity" />
+        <activity android:name=".ExploreActivity" />
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".LoginActivity" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+    </application>
+
+</manifest>
